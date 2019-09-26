@@ -16,5 +16,25 @@ public class BraceTests
     {
         Assert.AreEqual(false, Brace.validBraces("[(])"));
     }
-  
+    [Test]
+    public void Test3()
+    {
+        Assert.AreEqual(false, Brace.validBraces("[(]){}"));
+    }
+    [Test]
+    public void Test4()
+    {
+        Assert.AreEqual(true, Brace.validBraces("{}"));
+    }
+    [Test]
+    public void Test5()
+    {
+        Assert.AreEqual(true, Brace.validBraces("[[({})]]"));
+    }
+    [Test]
+    public void Test6()
+    {
+        Assert.AreEqual(false, Brace.validBraces("[]{(})"));
+    }
+
 }
