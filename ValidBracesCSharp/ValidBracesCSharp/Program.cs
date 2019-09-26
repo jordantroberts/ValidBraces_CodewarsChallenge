@@ -5,9 +5,18 @@ using System.Linq;
 namespace ValidBracesCSharp {
     class Program {
         static void Main (string[] args) {
-            Console.WriteLine("Please enter a string of braces");
-            string input = Console.ReadLine();
-            Console.WriteLine(Brace.validBraces(input));
+
+            while (true) {
+                Console.WriteLine ("Please enter a string of braces");
+                string input = Console.ReadLine ();
+                if (input != "quit") {
+                    Console.WriteLine (Brace.validBraces (input));
+
+                } else {
+                    break;
+                }
+            }
+
         }
     }
 }
