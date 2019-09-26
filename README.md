@@ -18,7 +18,7 @@ I attempted <a href="https://www.codewars.com/kata/valid-braces">this Codewars k
 
 ## Specification 
 
-The Codewars Specification for this challenge can be found <a href="https://www.codewars.com/kata/valid-braces">HERE/a> 
+The Codewars Specification for this challenge can be found <a href="https://www.codewars.com/kata/valid-braces">HERE</a>
 
 Example acceptance criteria: 
 
